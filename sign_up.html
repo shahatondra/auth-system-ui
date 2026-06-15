@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:#f4f4f4;
+        }
+
+        .signup-container{
+            width:350px;
+            background:rgba(238, 238, 238, 0.993);
+            padding:30px;
+            border-radius:8px;
+            box-shadow:0 7px 12px rgba(120, 196, 240, 0.87);
+        }
+
+        h1{
+            text-align:center;
+            margin-bottom:20px;
+        }
+
+        .form-group{
+            margin-bottom:15px;
+        }
+
+        label{
+            display:block;
+            margin-bottom:5px;
+            font-weight:bold;
+        }
+
+        input{
+            width:100%;
+            padding:10px;
+            border:1px solid #ccc;
+            border-radius:4px;
+        }
+
+        .submit{
+            width:100%;
+            padding:10px;
+            border:none;
+            border-radius:4px;
+            background:#347fe0;
+            color:white;
+            cursor:pointer;
+        }
+
+        .submit:hover{
+            opacity:0.8;
+        }
+
+        .login-link{
+            text-align:center;
+            margin-top:15px;
+        }
+
+        .login-link a{
+            color:#0da9f1;
+            text-decoration:none;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="signup-container">
+
+    <h1>Sign Up</h1>
+
+    <form>
+
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" required>
+        </div>
+
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" required>
+        </div>
+
+        <div class="form-group">
+            <label>Username</label>
+            <input type="text" required>
+        </div>
+
+        <button class="submit" type="submit">
+            Sign Up
+        </button>
+
+    </form>
+
+    <div class="login-link">
+        Already have an account?
+        <a href="log.html">Login</a>
+    </div>
+
+</div>
+
+</body>
+</html>
