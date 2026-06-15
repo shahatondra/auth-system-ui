@@ -3,14 +3,12 @@ Responsive Sign Up and Login page UI built with HTML and CSS featuring a clean d
 
 # Responsive Authentication Pages
 
-## Login Page
-
-![Login Page](images/login.jpg)
-
 ## Sign Up Page
 
-![Sign Up Page](images/signup.jpg)
+![Sign Up Page](images/Sign-up.jpg)
+
+## Login Page
+![Login Page](images/Log-in.jpg)
 
 ## Reset Password Page
-
-![Reset Password Page](images/forget-pw.jpg)
+![Reset Password Page](images/Forget-pw.jpg)
